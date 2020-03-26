@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayingActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="SongName"
+        android:gravity="center"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sng_artist"
+        android:textSize="38sp"
+        android:text="SongArtist"
+        android:gravity="center"
+        android:padding="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/song_album"
+        android:text="SongAlbum"
+        android:gravity="center"
+        android:textSize="38sp"
+        android:padding="15dp"/>
+    <ImageView
+        android:src=""
+        android:layout_marginStart="25dp"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:id="@+id/album_art"
+        android:padding="15dp"/>
+
+    <androidx.appcompat.widget.AppCompatSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"/>
+
+    <FrameLayout
+
+        android:id="@+id/button_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="20dp"
+        >
+
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_skip_previous_black_24dp"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            />
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="end"
+            android:src="@drawable/ic_skip_next_black_24dp"
+            />
+
+    </FrameLayout>
+
+
+</LinearLayout>
