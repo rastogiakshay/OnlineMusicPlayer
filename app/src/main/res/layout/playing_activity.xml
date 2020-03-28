@@ -34,7 +34,7 @@
         android:textSize="38sp"
         android:padding="15dp"/>
     <ImageView
-        android:src=""
+
         android:layout_marginStart="25dp"
         android:layout_width="350dp"
         android:layout_height="250dp"
@@ -42,6 +42,7 @@
         android:padding="15dp"/>
 
     <androidx.appcompat.widget.AppCompatSeekBar
+        android:id="@+id/seek_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="15dp"/>
@@ -56,17 +57,20 @@
         >
 
         <ImageButton
+            android:id="@+id/track_prev"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:src="@drawable/ic_skip_previous_black_24dp"
             />
         <ImageButton
+            android:id="@+id/track_play"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:src="@drawable/ic_play_arrow_black_24dp"
             />
         <ImageButton
+            android:id="@+id/track_next"
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="end"

@@ -1,4 +1,4 @@
-package com.example.onlinemusicplayer;
+package com.example.onlinemusicplayer.Adapters;
 
 import android.net.LinkAddress;
 

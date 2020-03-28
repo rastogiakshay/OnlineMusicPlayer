@@ -1,4 +1,4 @@
-package com.example.onlinemusicplayer;
+package com.example.onlinemusicplayer.Adapters;
 
 import android.view.View;
 import android.view.ViewGroup;
